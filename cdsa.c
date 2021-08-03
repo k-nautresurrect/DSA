@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "./Data-Structures/ds.h"
 
 void HelloWorld(){
 	printf("Hello World!\n");
@@ -29,7 +30,10 @@ int Euclid_algo(){
 	}
 }
 int main(){
-	int gcf = Euclid_algo();
-	printf("%d\n",gcf );
+	int *arr;
+	arr = Array(5);
+	for(int i=0; i<5; i++){
+		printf("%d, ",*(arr+i));
+	}
 	return 0;
 }
