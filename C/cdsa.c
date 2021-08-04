@@ -28,8 +28,9 @@ int Euclid_algo(){
 		return n;
 	}
 }
+
+
 int main(){
-	int gcf = Euclid_algo();
-	printf("%d\n",gcf );
+	HelloWorld();
 	return 0;
 }
