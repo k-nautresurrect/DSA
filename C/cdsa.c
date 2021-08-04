@@ -32,14 +32,6 @@ int Euclid_algo(){
 
 
 int main(){
-<<<<<<< HEAD:C/cdsa.c
 	HelloWorld();
-=======
-	int *arr;
-	arr = Array(5);
-	for(int i=0; i<5; i++){
-		printf("%d, ",*(arr+i));
-	}
->>>>>>> f15679c6bd816f39ad834b2afab8c2aef1135636:cdsa.c
 	return 0;
 }
