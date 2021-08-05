@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "./Data-Structures/ds.h"
+#include "./Data-Structures/Array.h"
 
 void HelloWorld(){
 	printf("Hello World!\n");
@@ -33,5 +33,11 @@ int Euclid_algo(){
 
 int main(){
 	HelloWorld();
+	Array();
+	puts("Executed");
+	int *ptr = Array();
+	for(int i = 0; i < 5; i++){
+		printf("%d",*(ptr + i));
+	}
 	return 0;
 }
