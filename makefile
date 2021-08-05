@@ -1,8 +1,8 @@
 all: dsa cdsa
 
-dsa: dsa.cpp
-	g++ -std=c++14 -o dsa dsa.cpp
+dsa: CPP/dsa.cpp
+	g++ -std=c++14 -o dsa CPP/dsa.cpp
 
-cdsa: cdsa.c
-	gcc -std=c17 -o cdsa cdsa.c
+cdsa: C/cdsa.c
+	gcc -std=c17 -o cdsa C/Data-Structures/Array.c C/cdsa.c
 	

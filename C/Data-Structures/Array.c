@@ -1,12 +1,24 @@
 #include<stdio.h>
 
-int * Array(){
-	int n,i;
-	scanf("size : %d",&n);
-	int arr[n];
-	for (i = 0; i < n; i++){
-		scanf("%d",&arr[i]);
+struct Array{
+	int element;
+	int arr[100];	
+
+};
+
+void PrintArray(struct Array a){
+	puts("Traversed: ");
+	for(int i = 0; i < a.element; i++){
+		printf("%d ",a.arr[i]);
 	}
-	return arr;
+}
+
+void array(int n){
+	struct Array a;
+	a.element = n;
+	for(int i = 0; i < a.element; i++){
+		scanf("%d",&a.arr[i]);
+	}
+	PrintArray(a);
 }
 

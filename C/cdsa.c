@@ -33,11 +33,10 @@ int Euclid_algo(){
 
 int main(){
 	HelloWorld();
-	Array();
-	puts("Executed");
-	int *ptr = Array();
-	for(int i = 0; i < 5; i++){
-		printf("%d",*(ptr + i));
-	}
+	int element;
+	printf("element : ");
+	scanf("%d",&element);
+	array(element);
+	printf("\n<--Executed-->");
 	return 0;
 }
