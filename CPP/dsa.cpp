@@ -58,6 +58,7 @@ int Euclid_algo(){
 		return n;
 	}
 }
+
 int main(){
 	int i = Euclid_algo();
 	cout<<i;
