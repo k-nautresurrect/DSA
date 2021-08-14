@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include "./Data-Structures/Array.h"
+#include "fndmntl.h"
+
 
 void HelloWorld(){
 	printf("Hello World!\n");
