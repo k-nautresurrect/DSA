@@ -15,6 +15,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -58,28 +59,12 @@
       <workItem from="1628577419938" duration="239000" />
       <workItem from="1628577965813" duration="248000" />
       <workItem from="1628959264910" duration="337000" />
+      <workItem from="1628986848729" duration="205000" />
+      <workItem from="1628987081093" duration="227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1320" height="177" key="GridCell.Tab.0.bottom" timestamp="1628098273617">
-      <screen x="0" y="24" width="1366" height="744" />
-    </state>
-    <state width="1320" height="177" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1628098273617" />
-    <state width="1320" height="177" key="GridCell.Tab.0.center" timestamp="1628098273617">
-      <screen x="0" y="24" width="1366" height="744" />
-    </state>
-    <state width="1320" height="177" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1628098273617" />
-    <state width="1320" height="177" key="GridCell.Tab.0.left" timestamp="1628098273617">
-      <screen x="0" y="24" width="1366" height="744" />
-    </state>
-    <state width="1320" height="177" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1628098273617" />
-    <state width="1320" height="177" key="GridCell.Tab.0.right" timestamp="1628098273617">
-      <screen x="0" y="24" width="1366" height="744" />
-    </state>
-    <state width="1320" height="177" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1628098273617" />
   </component>
 </project>
