@@ -26,6 +26,23 @@ void PrintArray(struct Array a){
 	}
 }
 
+int search(struct Array a){
+	int Element;
+	char flag;
+	puts("\nSearching element\nEnter the number to find: ");
+	scanf("%d",&Element);
+	puts("type\n[L] for linear search\n[B] for binary search\n: ");
+	scanf(" %c",&flag);
+	if(tolower(flag)=='l'){
+		for(int i = 0; i < a.element; i++){
+			if(a.arr[i] == Element){ return i+1; }
+		}
+	}
+	else if (tolower(flag) == 'b') {
+
+	}
+}
+
 void array(int n){
 	struct Array a;
 	a.element = n;
@@ -33,5 +50,7 @@ void array(int n){
 		scanf("%d",&a.arr[i]);
 	}
 	PrintArray(a);
+	int searched = search(a);
+	printf("%d",searched);
 }
 
