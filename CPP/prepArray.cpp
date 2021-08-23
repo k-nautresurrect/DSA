@@ -5,6 +5,7 @@ using namespace std;
 //finding duplicate no. in an array of N+1 integer(without modifing the array)
 //(if array is of size of n then all element is in range 1 to n-1)
 //only one no. is duplicate.
+
 int dupnoGreedy(vector<int> &arr){
 	int i,j;
 	for(i = 0; i<arr.size(); i++ ){
@@ -15,6 +16,7 @@ int dupnoGreedy(vector<int> &arr){
 		}
 	}
 }// time complexity: O(n^2), space complexity: O(1)
+
 //warning: control reaches end of non-void function [-Wreturn-type]
 //	this warning means that we have to return something from a non void function
 //  however we have returned but in between the loop not outside the scope of loop.
@@ -47,6 +49,7 @@ int dupnoCycledtct(vector<int> &arr){
 
 //problem -> 2
 //sort an array of 0's 1's and 2's without using extra space or sorting algorithm
+
 void countSrt(vector<int> &arr){
 	int cnt0 = 0, cnt1 = 0, cnt2 = 0;
 	for (int i = 0; i<=arr.size(); i++){
@@ -85,6 +88,7 @@ void dutchflagSrt(vector<int> &arr){
 //repeat and missing no. in array
 //given an unsorted array of n where elements are from 1 to n
 //find which element is not there in array and which one is repeated.
+
 void missnrepHash(vector<int> &arr){
 	vector<int> hash(arr.size()+1,0);
 	for(int i=0; i<arr.size(); i++){
@@ -107,13 +111,29 @@ void missnreSum(vector<int> &arr){
 	int eq1=c1, eq2 = c2/c1;
 	cout<<"missing "<<(eq1+eq2)/2<<" "<<"repeated "<<eq1-((eq1+eq2)/2)<<endl;
 }//time complexity: O(n), space complexity: O(1) ->only work for one missing no.
+
 //debug logs -> check after elimination if it is zero or not. if zero then find by other eq.
 //           -> it will return biggest missing no.(total difference in which smaller ones are combined)
+
+//problem 4 -> merge two sorted array with a space complexity of O(1)[without extra space.]
+
+void bruteforceMerge(vector<int> &arr1,vector<int> &arr2){
+	vector<int> arr(arr1.size() + arr2.size());
+	int i,j;
+	for(i = 0; i<arr1.size(); i++){	arr[i] = arr1[i]; }
+	for(j = i-1; i<arr2.size()+(i-1); j++){ arr[j] = arr2[j]; }
+	sort(arr.begin(), arr.end());
+	for(i = 0; i<arr1.size(); i++){ cout<<arr[i]<<" "; }
+	cout<<"\n";
+	for(j = i-1; j<arr2.size()+(i-1); j++){ cout<<arr[j]<<" "; }
+}
 
 int main(){
 	vector<int> pb1{1,2,4,3,4};
 	vector<int> pb2{0,0,1,1,1,1,1,2,0,0,0,2};
 	vector<int> pb3{4,1,6,2,1,1};
+	vector<int> pb4_1{1,4,7,8,10};
+	vector<int> pb4_2{2,3,9};
 	int dupno = dupnoGreedy(pb1);
 	int hashdupno = dupnoHash(pb1);
 	int cycledupno = dupnoCycledtct(pb1);
@@ -121,6 +141,7 @@ int main(){
 	dutchflagSrt(pb2);
 	missnrepHash(pb3);
 	missnreSum(pb3);
+	bruteforceMerge(pb4_1,pb4_2);
 	for(int i=0;i<pb2.size();i++){ cout<<"|"<<pb2[i]<<" "; }
 	cout<<"\n"<<dupno<<"\n"<<hashdupno<<"\n"<<cycledupno;
 	return 0;
