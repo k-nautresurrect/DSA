@@ -1,4 +1,8 @@
 #include<iostream>
+#include<climits>
+#include<chrono>
+#include<thread>
+
 
 using namespace std;
 
@@ -76,7 +80,110 @@ void dcntobin(int n){
 	}
 }
 
+void Datatypmodifier(int x){
+	cout<<INT_MAX<<endl;
+	cout<<INT_MIN<<endl;
+	cout<<"x = "<<x<<endl;
+	x = INT_MAX;
+	x++;
+	cout<<"x+1 = "<<x<<endl;
 
+}
+
+void ftoctable(int tmpc){
+	int tmpf = 0;
+	while(tmpf<=300){
+		tmpc = (5*(tmpf-32))/9;
+		cout<<tmpf<<"\t"<<tmpc<<endl;
+		tmpf += 20;
+	}	
+}
+
+void chckDivsible(int n){
+	if(n%2==0 and n%3 == 0){ cout<<"divisible by both 2 and 3"<<endl; }
+	else if(n%2==0){ cout<<"divisible by 2"<<"\n"; }
+	else if(n%3 == 0){ cout<<"divisible by 3"<<endl; }
+	else{ cout<<"not divisible by 2,3 or both"<<endl; }	
+}
+
+void FndminmaxN(){
+	int n,N,min = INT_MAX,max = INT_MIN;
+	cin>>n;
+	for(int i=1; i<=n; i++){
+		cin>>N;
+		if(N<min){ min = N; }
+		else if(N>max){ max = N; }
+		else{ continue; }
+	}
+	cout<<min<<"  "<<max<<endl;
+}
+
+void ptrn3(){
+	int n,row,col,val;
+	cin>>n;
+	//loop for rows
+	for(row=1;row<=n;row++){
+		//loop for spaces
+		for(col=1;col<=n-row;col++){
+			cout<<" "; 
+		}
+		//loop for increasing
+		val=row;
+		for(col=1;col<=row;col++){
+			cout<<val;
+			val++;			
+		}
+		//loop for decreasing no.
+		val = val-2;
+		for(col=1;col<=row-1;col++){
+			cout<<val;
+			val--;
+		}
+		cout<<endl;
+	}
+}
+
+void sqroot(int n,int precision){
+	float awn=0, inc=1.0;
+	for(int tms=0; tms<=precision; tms++){
+		while(awn*awn<=n){
+			awn += inc;
+		}
+		awn = awn - inc;
+		inc = inc/10;
+	}
+	cout<<awn<<endl;	
+}
+
+void readlineSpace(){
+	char ch;
+	//cin>>ch;
+	ch = cin.get();
+	while(ch!='\n'){
+		cout<<ch;
+		//cin>>ch;
+		ch = cin.get();
+	}
+	cout<<endl;
+}
+
+void shortestpath(){
+	int x = 0,y = 0;
+	char ch;
+	ch = cin.get();
+	while(ch != '\n'){
+		if(ch == 'n' or ch == 'N'){ y++; }
+		else if(ch=='s' or ch =='S'){ y--; }
+		else if(ch=='e' or ch=='E'){ x++; }
+		else{ x--; }
+		ch = cin.get();
+	}
+	cout<<"("<<x<<", "<<y<<")"<<endl;
+	if(x>0 and y>0){ cout<<"displacement is possible"<<endl; }
+	else{ cout<<"displacement is not possible"<<endl; }
+	while(y>0){ cout<<"N"; y--; }	
+	while(x>0){ cout<<"E"; x--; }
+}
 
 int main(int argc, char const *argv[]){
 	ptrn1(5);
@@ -88,5 +195,12 @@ int main(int argc, char const *argv[]){
 	ptrn2(6);
 	int dcn = bintodcn(11101110); cout<<dcn<<endl;
 	dcntobin(34567);
+	Datatypmodifier(344);
+	ftoctable(30);
+	FndminmaxN();
+	ptrn3();
+	sqroot(3,3);
+	readlineSpace();
+	shortestpath();
 	return 0;
 }
