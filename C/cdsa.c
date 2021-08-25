@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "./Data-Structures/Array.h"
-#include "fndmntl.h"
+#include "./fndmntl.h"
 
 
 void HelloWorld(){
@@ -39,6 +39,12 @@ int main(){
 	printf("element : ");
 	scanf("%d",&element);
 	array(element);
+	int c = sum(3,40);
+	printf("\n%d\n",c);
+	c = bitsum(40,3);
+	printf("%d\n",c);
+	c = bitsub(35,4);
+	printf("%d\n",c);
 	printf("\n<--Executed-->");
 	return 0;
 }
