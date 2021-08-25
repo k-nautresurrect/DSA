@@ -26,7 +26,7 @@ void PrintArray(struct Array a){
 	}
 }
 
-int search(struct Array a){
+int search(struct Array a,int n){
 	int Element;
 	char flag;
 	puts("\nSearching element\nEnter the number to find: ");
@@ -39,6 +39,13 @@ int search(struct Array a){
 		}
 	}
 	else if (tolower(flag) == 'b') {
+		int low = 0, high = n;
+		while(low <= high){
+			int mid = (low + (high-1))/2;
+			if(a.arr[mid] == Element){ return mid; }
+			else if(a.arr[mid] < Element){ low = mid + 1; }
+			else{ high = mid - 1; }
+		}
 
 	}
 }
@@ -50,7 +57,7 @@ void array(int n){
 		scanf("%d",&a.arr[i]);
 	}
 	PrintArray(a);
-	int searched = search(a);
+	int searched = search(a,n);
 	printf("%d",searched);
 }
 
