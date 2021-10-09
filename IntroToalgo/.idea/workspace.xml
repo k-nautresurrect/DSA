@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1yqPPx5Zvv0MiDWx4cCzDwtFrbR" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -96,6 +103,9 @@
       <option name="presentableId" value="Default" />
       <updated>1632976130491</updated>
       <workItem from="1632976131956" duration="1286000" />
+      <workItem from="1633718187417" duration="43000" />
+      <workItem from="1633718298595" duration="2408000" />
+      <workItem from="1633720821943" duration="1223000" />
     </task>
     <servers />
   </component>
