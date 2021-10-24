@@ -5,7 +5,7 @@
 	this lead java to be partially object oriented.
 	scala is still used by many and is fully OO.
 
-	here we trhy to do things in full oop way but it is not
+	here we try to do things in full oop way but it is not
 	best practice
 */
 import java.util.*;
