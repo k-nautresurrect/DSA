@@ -4,6 +4,7 @@ fundamentals
 prepArray
 *.ctxt
 *.class
+*.java:tests
 *.cpp:tests
 bin_dcl
 d_typmodfr
