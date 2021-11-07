@@ -1,0 +1,18 @@
+- count no of digits ✅
+- Airthmetic Progression ✅
+- Geometric progression ✅
+- Quadratic equation ✅
+- Pallindrome ✅
+- Armstrong ✅
+- Permutation, Combination
+- Mean ✅
+- Median
+- Check Prime
+- Divisors
+- Prime Divisors
+- Sieve
+- LCM & HCF
+- Factorial
+- Modular Airthematic
+- Modular inverse(Extended euclid algo, fermat theoram)
+- 
