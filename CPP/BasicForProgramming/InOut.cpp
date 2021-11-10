@@ -26,5 +26,6 @@ int main() {
 	// this program will give unpredictable output
 	// that's why either use dynamic memory allocation*
 	// Or say no to pointers.
+	for (int i = 0; i < 5; i++) { cout << carr[i] << " "; }
 	return 0;
 }
