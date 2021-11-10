@@ -2,7 +2,7 @@
 
 ## Basic For Programming -
 
-- Taking Input & Output [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/InOut.cpp) 
+- Taking Input & Output [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/InOut.cpp), [java] (https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/InputOutput.cpp)
 - Conditional Statements
 - Minimum and Maximum
 - Number of Digits
