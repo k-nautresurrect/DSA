@@ -47,4 +47,4 @@
 - Generating subset
 - Fast exponentials
 - Inclusive Exclusive
-- Decimal to BinaryFr
+- Decimal to Binary
