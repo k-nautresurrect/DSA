@@ -11,7 +11,6 @@
 import java.util.*;
 import java.io.*;
 
-
 public class PartialOOP extends IO {
 	public static void main(String[] args) {
 		output.println("Namaste World");

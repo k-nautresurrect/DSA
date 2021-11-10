@@ -20,6 +20,8 @@
 - Compute Power
 - Compute Square Root
 - Pattern Questions
+- Mean and Median
+- Bigintegers
 
 
 ## Maths for Programming -
@@ -29,6 +31,20 @@
 - GCD & LCM
 - Prime Numbers
 - Number Theory
-- Game Theory
 - Modular Airthmetic
 - Combinatorics
+
+## Bitwise Operations in Programming -
+
+- And
+- Or
+- Not
+- Xor
+- Bitmasking
+- Get, Set bits
+- Couting Set bits
+- Update, Clear bits
+- Generating subset
+- Fast exponentials
+- Inclusive Exclusive
+- Decimal to Binary
