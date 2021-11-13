@@ -19,6 +19,7 @@ int main() {
 	char c = 'a';
 
 	if (c) { cout << c << " " << true; }
+	if (c) { cout << c << " " << ":"; }
 	if (!c) { cout << !c << " " << false; }
 
 	cout << !c << endl;
