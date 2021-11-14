@@ -1,5 +1,6 @@
 #include<iostream>
-#include<climits>
+#include<climits>  // for Limits of int
+#include<algorithm> // for min,max,minmax
 
 using namespace std;
 
@@ -46,5 +47,14 @@ int main() {
 	// point -> Max of maximums is the absolute MAX
 	// point -> Minimum of minimum is the absolute MIN
 
+	cout << min(n1, n2); // gives minimum of exactly 2 numbers.
+	/*
+		cout << max(56,6); // here in this scope max is a variable not function.
+	*/
+	cout << std :: max(85, 8); // gives maximumm of exactly 2 number.
+	minmax({12, 90, 1, 2}); // gives an itreator to the pair of minmax
+
+	// we have to give scope if we are using the function of same name
+	// as an identifier specified by us
 	return 0;
 }
