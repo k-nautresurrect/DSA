@@ -53,6 +53,8 @@ int main() {
 	*/
 	cout << std :: max(85, 8); // gives maximumm of exactly 2 number.
 	minmax({12, 90, 1, 2}); // gives an itreator to the pair of minmax
+	min({12, 3, 4, 6, -8}); // works same as above.
+	std :: max({23, 45, 67, 89}); // works same as above.
 
 	// we have to give scope if we are using the function of same name
 	// as an identifier specified by us
