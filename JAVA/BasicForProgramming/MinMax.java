@@ -15,8 +15,8 @@ public class MinMax {
 		int a = in.nextInt();
 		int max = a;   // if bounds are not known.
 		int stop = Integer.MAX_VALUE;
-		while (a < stop) {
-			if (max >= a) { max = a; }
+		while (a < 10000) {		// it is necessary to get the exact stopage criteria.
+			if (a >= max) { max = a; }
 			a = in.nextInt();
 		} // the main diffrence between java and c++ is
 		/*
