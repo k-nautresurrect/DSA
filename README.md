@@ -22,6 +22,9 @@
 - Pattern Questions
 - Mean and Median
 - Bigintegers
+- String and char Array
+- Converting number to string and viceversa
+- Using ascii values
 
 
 ## Maths for Programming -
