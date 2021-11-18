@@ -26,6 +26,13 @@
 - Converting number to string and viceversa
 - Using ascii values
 
+***
+### important take offs- 
+- how modular work, where we can use it.
+- when to store any value in variable.
+- when and how to use while, do while, for loop.
+- what to pass what to return, with what and how it is evaluated in recursion.
+
 
 ## Maths for Programming -
 
