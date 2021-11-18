@@ -2,11 +2,11 @@
 
 ## Basic For Programming -
 
-- Taking Input & Output [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/InOut.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/InputOutput.java)
-- Conditional Statements[c++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/CondStatement.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/ConditionStatement.java)
-- Minimum and Maximum
-- Number of Digits
-- Variables & Scope
+- Taking Input & Output - [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/InOut.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/InputOutput.java)
+- Conditional Statements - [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/CondStatement.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/ConditionStatement.java)
+- Minimum and Maximum - [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/minmax.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/MinMax.java)
+- Number of Digits - [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/Numofdigit.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/NumOfDigit.java)
+- Variables & Scope[C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/varndcope.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/VarNScope.java)
 - Binary to Decimal & Vice Versa 
 - Even odd
 - Swap numbers
