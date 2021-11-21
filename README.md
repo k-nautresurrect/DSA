@@ -58,3 +58,8 @@
 - Fast exponentials
 - Inclusive Exclusive
 - Decimal to Binary
+
+
+## To Do
+
+- factorial of large number
