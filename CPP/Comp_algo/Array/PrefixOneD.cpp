@@ -44,14 +44,11 @@ void prefix(int arr[], int n, int q) {
 		sum += arr[i];
 		pre[i] = sum;
 	}
-	// for (int x : pre) {cout << x << " ";}
-	// for (int i = 0; i < n; i++) {cout << *(pre + i) << " ";}
 	while (q-- > 0) {
 		int l, r; cin >> l >> r;
 		if ((l - 1) >= 0) {
 			cout << pre[r] - pre[l - 1] << "\n";
 		} else {
-			// cout << "executed";
 			cout << pre[r] << "\n";
 		}
 	}
@@ -64,12 +61,15 @@ int main() {
 		cin >> arr[i];
 	}
 	prefix(arr, n, q);
-	/*	while (q-- > 0) {
-			int i, j, sum = 0; cin >> i >> j;
-			for (; i <= j; i++) {
-				sum += arr[i];
-			}
-			cout << sum << endl;
-		}*/
+
+	/*
+	while (q-- > 0) {
+		int i, j, sum = 0; cin >> i >> j;
+		for (; i <= j; i++) {
+			sum += arr[i];
+		}
+		cout << sum << endl;
+	}
+	*/
 }
 
