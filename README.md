@@ -1,5 +1,24 @@
 # DSA
 
+## Essential of C and C++ -
+
+- Array basics
+- Structures
+- Pointers
+- Refrences
+- Pointer to Structure
+- Functions
+- Parameter passing Methods
+- Array as Parameter
+- Structure as Parameter
+- Structure and Function
+- Converting c Program to c++ class
+- Monolithic Program
+- Modular Program
+- Object Oriented Programing in c++
+- C++ class Constructor
+- Template classes
+
 ## Basic For Programming -
 
 - Taking Input & Output - [C++](https://github.com/k-nautresurrect/DSA/blob/main/CPP/BasicForProgramming/InOut.cpp), [java](https://github.com/k-nautresurrect/DSA/blob/main/JAVA/BasicForProgramming/InputOutput.java)
@@ -30,6 +49,7 @@
 ### important take offs- 
 - how modular work, where we can use it.
 - when to store any value in variable.
+- important logic of even, odd, and prime numbers.
 - when and how to use while, do while, for loop.
 - what to pass what to return, with what and how it is evaluated in recursion.
 
@@ -62,8 +82,49 @@
 ***
 ## Utilities
 - C++ STL
+	- Containers
+		- Pairs
+		- Vectors
+		- Maps
+		- Sets
+		- Priority Queue
+	- Algorithm
+		- Iterators
+		- Algorithm Headers
+	- Template
+		- Function template
+		- Class template
 - JAVA Collection
 
 ## To Do
 
 - factorial of large number
+
+***
+## Java SE
+- 
+
+
+# Design & Analysis of Algorithms
+- Searching
+	- linear search
+	- binary search
+- Sorting
+	- Bubble Sort
+	- Insertion Sort
+	- Selection Sort
+	- Merge Sort
+	- Quick Sort
+	- Cycle Sort
+	- Counting Sort
+	- Heap Sort
+	- Radix Sort
+	- Bucket Sort
+- Divide And Conquer
+	- The maimum-subarray problem
+	- Strassen's algorithm for matrix mul
+- Stack
+- Queue
+- Hash Tables
+- Binary Search Tree
+- Red-Black Tree
