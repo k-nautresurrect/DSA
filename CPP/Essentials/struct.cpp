@@ -8,6 +8,11 @@ int x = 10;
 
 using namespace std;
 
+/*
+	memory of the structure is governed by the members in the
+	structure.
+*/
+
 struct Rectangle {
 	int length;
 	int breadth;
