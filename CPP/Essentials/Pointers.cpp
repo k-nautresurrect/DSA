@@ -24,6 +24,11 @@ using namespace std;
  * 		   +-----------+
 */
 
+struct rectangle {
+	int length;
+	int width;
+};
+
 int main() {
 	int a = 10;
 	int *p; // declaration
@@ -49,5 +54,20 @@ int main() {
 
 	cout << p << " " << *p << endl; // giving segmentation fault
 	cout << &a << " " << a << endl;
+
+
+	int *p1;
+	char *p2;
+	float *p3;
+	double *p4;
+	struct rectangle *p5;
+
+	//pointers will always take equal amount of memory it doesn't depend on types.
+	cout << sizeof(p1) << endl;
+	cout << sizeof(p2) << endl;
+	cout << sizeof(p3) << endl;
+	cout << sizeof(p4) << endl;
+	cout << sizeof(p5) << endl;
+
 	return 0;
 }
