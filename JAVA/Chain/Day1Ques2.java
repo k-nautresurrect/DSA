@@ -20,24 +20,18 @@
 public class Day1Ques2 extends IO {
 	public static void main(String[] args) {
 		int n = in.nextInt();
-
 		int upn = n + 1;
-		//1st print star for 1st quater(rows)
 		for (int i = 1; i <= n + 1; i++) {
-
-			// columns for 1st quater
 			for (int j = n; j >= upn - i; j--) {
 				out.print(j + " ");
 			}
 
-			// loop for extra numbers in between
 			if (i == upn) {
 				for (int ex = 1; ex <= n; ex++) {
 					out.print(ex + " ");
 				}
 			}
 
-			// column loop for spaces between (cols) and 2nd quator
 			if (i != upn) {
 				for (int sp = 2 * (upn - i ) - 1; sp >= 1; sp--) {
 					out.print("  ");
@@ -50,26 +44,17 @@ public class Day1Ques2 extends IO {
 			out.println();
 		}
 
-		// 2nd half rows
 		for (int i = 1; i <= n; i++) {
-
-			// column
 			for (int st = i; st <= n; st++) {
 				out.print(st + " ");
 			}
 
-			// spaces between quators
-			// 1 2 3 4 5
-			// 1 3 5 7 9
 			for (int sp = (2 * i) - 1; sp >= 1; sp--) {
 				out.print("  ");
 			}
-
-			// loop for 4th quator
 			for (int str = i; str <= n; str++) {
 				out.print(str + " ");
 			}
-
 			out.println();
 		}
 	}
