@@ -26,7 +26,7 @@ public class Day1 extends IO {
             if (i % 2 != 0) {
                 int tmp = 0;
                 for (int st = 1; st <= i - tmp; st++) {
-                    out.print("* ");
+                    out.print(st + " ");
                     tmp = st - 1;
                 }
                 if (i != 1) {
@@ -35,7 +35,7 @@ public class Day1 extends IO {
                     }
                     int tmp2 = 0;
                     for (int st = 1; st <= i - tmp2; st++) {
-                        out.print("* ");
+                        out.print(st + " ");
                         tmp2 = st - 1;
                     }
                 }
@@ -49,7 +49,7 @@ public class Day1 extends IO {
             }
 
             for (int str = i; str <= n / 2; str++) {
-                out.print("* ");
+                out.print((n / 2 + 1) - str + " ");
             }
 
             if (i != n / 2) {
@@ -59,7 +59,7 @@ public class Day1 extends IO {
                     out.print(" ");
                 }
                 for (int str = i; str <= n / 2; str++) {
-                    out.print("* ");
+                    out.print((n / 2 + 1) - str + " ");
                 }
             }
             out.println();
