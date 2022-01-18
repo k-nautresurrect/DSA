@@ -27,13 +27,13 @@ public class Day1Ques2 extends IO {
 
 			// columns for 1st quater
 			for (int j = n; j >= upn - i; j--) {
-				out.print("* ");
+				out.print(j + " ");
 			}
 
 			// loop for extra numbers in between
 			if (i == upn) {
 				for (int ex = 1; ex <= n; ex++) {
-					out.print("* ");
+					out.print(ex + " ");
 				}
 			}
 
@@ -43,7 +43,7 @@ public class Day1Ques2 extends IO {
 					out.print("  ");
 				}
 				for (int st = upn - i; st <= n; st++) {
-					out.print("* ");
+					out.print(st + " ");
 				}
 			}
 
@@ -55,7 +55,7 @@ public class Day1Ques2 extends IO {
 
 			// column
 			for (int st = i; st <= n; st++) {
-				out.print("* ");
+				out.print(st + " ");
 			}
 
 			// spaces between quators
@@ -67,7 +67,7 @@ public class Day1Ques2 extends IO {
 
 			// loop for 4th quator
 			for (int str = i; str <= n; str++) {
-				out.print("* ");
+				out.print(str + " ");
 			}
 
 			out.println();
