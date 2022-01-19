@@ -45,7 +45,7 @@ public class Day1Ques2 extends IO {
 		}
 
 		for (int i = 1; i <= n; i++) {
-			for (int st = i; st <= n; st++) {
+			for (int st = n; st >= i; st--) {
 				out.print(st + " ");
 			}
 
