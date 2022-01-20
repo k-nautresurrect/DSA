@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author kaynaut
- *
- */
-module collection {
-}
